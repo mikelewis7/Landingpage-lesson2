@@ -1,0 +1,39 @@
+body > section{
+    min-height: 200px;
+    padding: 40px;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header {
+    padding: 15px
+    -webkit-box-shadow: 2px 23px 25px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 23px 25px -5px rgba(0,0,0,0.75);
+    box-shadow: 2px 23px 25px -5px rgba(0,0,0,0.75);
+}
+
+body > section:nth-child(odd)
+{
+    background-color: #eee;
+}
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+
+    .price-card:{
+        text-align: center;
+    }
+
+}
+.price-card: > .price{
+    display: block;
+}
